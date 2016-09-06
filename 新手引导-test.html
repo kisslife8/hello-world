@@ -113,14 +113,14 @@ var res=document.cookie.substring(5);
 //alert(res);
 
 //如果没有cookie,执行以下动作
-if(res!="www.open.com.cn") {
+if(res!="www.test.com.cn") {
  // alert(res);
   $("#mask,.row:eq(0)").show();
 }
 //添加cookie
 var oDate=new Date();
 oDate.setDate(oDate.getDate()+30);//30天内有效
-document.cookie='name=www.open.cpm.cn;expires='+oDate;
+document.cookie='name=www.test.cpm.cn;expires='+oDate;
 
 </script>
 </html>
